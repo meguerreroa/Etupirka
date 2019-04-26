@@ -7,7 +7,7 @@
         xmlns:Views="clr-namespace:Etupirka.Views"
         WindowStartupLocation="CenterOwner"
         Name="GameGraph"
-        Title="プレイタイムグラフ" Height="463.955" Width="480"
+        Title="Play Time Graph" Height="463.955" Width="480"
         WindowTitleBrush="#FF252525"
         GlowBrush="{DynamicResource AccentColorBrush}"
         BorderThickness="1.5"
@@ -21,7 +21,7 @@
         </Grid.Resources>
         <chart:PieChart
         x:Name="chart"
-        ChartTitle="タイトル別プレイ時間（分）"
+        ChartTitle="Playtime by title (minutes)"
         ChartSubTitle=""
         Foreground="White"        
         PieMinimalSize="300.0"
@@ -31,7 +31,7 @@
             <chart:PieChart.Series>
                 <chart:ChartSeries
                 x:Name="crt"
-                SeriesTitle="プレイタイム"
+                SeriesTitle="Play Time"
                 DisplayMember="Game"
                 ValueMember="PlayTime"/>
             </chart:PieChart.Series>

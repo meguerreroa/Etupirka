@@ -57,7 +57,7 @@ namespace Etupirka.Dialog
 		{
 			OpenFileDialog openFileDialog1 = new OpenFileDialog();
 			openFileDialog1.Multiselect = false;
-			openFileDialog1.Filter = "実行ファイル(*.exe)|*.exe|すべてのファイル(*.*)|*.*";
+			openFileDialog1.Filter = "Executable file(*.exe)|*.exe|All files(*.*)|*.*";
 			if (openFileDialog1.ShowDialog() == true)
 			{
 				bgame.ProcPath = openFileDialog1.FileName;
@@ -68,7 +68,7 @@ namespace Etupirka.Dialog
 		{
 			OpenFileDialog openFileDialog1 = new OpenFileDialog();
 			openFileDialog1.Multiselect = false;
-			openFileDialog1.Filter = "実行ファイル(*.exe)|*.exe|すべてのファイル(*.*)|*.*";
+			openFileDialog1.Filter = "Executable file(*.exe)|*.exe|All files(*.*)|*.*";
 			openFileDialog1.FilterIndex = 1;
 			if (openFileDialog1.ShowDialog() == true)
 			{

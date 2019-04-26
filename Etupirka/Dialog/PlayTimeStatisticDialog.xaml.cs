@@ -51,7 +51,7 @@ namespace Etupirka.Dialog
 				int m = (time / 60);
 				int h = m / 60;
 				m %= 60;
-				return h + @"時間" + m + @"分" + s + @"秒";
+				return h + @"hours" + m + @"minutes" + s + @"seconds";
 			}
 		}
 	}
